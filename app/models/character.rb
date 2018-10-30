@@ -1,3 +1,5 @@
 class Character < ApplicationRecord
-  belongs_to :dog
+  has_many :dogs
+
+  validates :hero, presence: true, uniqueness: true
 end

@@ -17,12 +17,15 @@ response = Net::HTTP.get(uri)
 
 info =  JSON.parse(response)
 
+
+Dog.destory_all
+Character.destory_all
 info["message"].each do |breeds|
 
-    27.times do
 	 dogBreed = "#{breeds[0]}"
     dog_type = Dog.create(main_breed: dogBreed, sub_breed: nil)
-	 puts "This is a main breed #{dogBreed}"
+     puts "This is a main breed #{dogBreed}"
+   
 
     breeds[1].each do |subbreeds|
         sub_breed = subbreeds
@@ -30,12 +33,10 @@ info["message"].each do |breeds|
 		puts "This is a subbreed #{subbreeds}"
 	end
 
-    
-        character_type = Character.create(hero: Faker::Overwatch.hero, 
+    character_type = Character.create(hero: Faker::Overwatch.hero, 
     location: Faker::Overwatch.location, dog_id: dogBreed)
+        
     
-
-end
 
 end
 
