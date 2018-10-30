@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  main_breed: MyString
+  sub_breed: MyString
+
+two:
+  main_breed: MyString
+  sub_breed: MyString

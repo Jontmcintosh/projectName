@@ -5,3 +5,47 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+require 'net/http'
+require 'json'
+require 'pp'
+ 
+url = 'https://dog.ceo/api/breeds/list/all'
+uri = URI(url)
+response = Net::HTTP.get(uri)
+
+info =  JSON.parse(response)
+
+info["message"].each do |breeds|
+
+    27.times do
+	 dogBreed = "#{breeds[0]}"
+    dog_type = Dog.create(main_breed: dogBreed, sub_breed: nil)
+	 puts "This is a main breed #{dogBreed}"
+
+    breeds[1].each do |subbreeds|
+        sub_breed = subbreeds
+        dog_type = Dog.create(main_breed: dogBreed, sub_breed: sub_breed)
+		puts "This is a subbreed #{subbreeds}"
+	end
+
+    
+        character_type = Character.create(hero: Faker::Overwatch.hero, 
+    location: Faker::Overwatch.location, dog_id: dogBreed)
+    
+
+end
+
+end
+
+
+
+
+
+
+
+
+
+
+

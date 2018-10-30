@@ -3,9 +3,9 @@
 one:
   hero: MyString
   location: MyString
-  quote: MyString
+  dog: one
 
 two:
   hero: MyString
   location: MyString
-  quote: MyString
+  dog: two
