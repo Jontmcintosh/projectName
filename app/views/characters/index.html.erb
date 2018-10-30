@@ -4,7 +4,7 @@
 
     <% @characters.each do |character| %>    
         <li>
-        <%= character.hero  %> and their dog breed is 
+        <%= link_to character.hero, character %>
         </li>
     <% end %>
 </ul>
