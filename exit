@@ -1,0 +1,77 @@
+[33mcommit 8c86cafa16fdb2d3929ec395e4e509ee525e7510[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Wed Oct 31 13:55:19 2018 -0500
+
+    Added boot strap
+
+[33mcommit 333ca1a3401821ffd65c82597352a709ec6a7223[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 19:24:04 2018 -0500
+
+    Created a menu bar as well as a link to root path in the title and a link to the search
+
+[33mcommit 53bae59ca490c43826adabc32a15998f94734dc3[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 19:18:08 2018 -0500
+
+    Added functionality behind
+
+[33mcommit 737d6b31a279e192c64a6cf462f3388f94fe888f[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 18:53:14 2018 -0500
+
+    Created a search controller and a form associated with the search.
+
+[33mcommit 335cf1b91853d6cc1b985ea907c159904e85007b[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 18:36:57 2018 -0500
+
+    Createda search controller.
+
+[33mcommit c847448dc822216d5afc2379e2cdbe86d48a9ebd[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 18:24:25 2018 -0500
+
+    Added links on the index page for the characters.
+
+[33mcommit c654523df8a96364aa1c7292435a56373be5647f[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 16:54:50 2018 -0500
+
+    Added some common headers and footers
+
+[33mcommit c1a03ed9fbc4197e92979c019a446793a758ff15[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Tue Oct 30 16:08:38 2018 -0500
+
+    Added some validation to the caracter models.
+
+[33mcommit 470da2d5d32e72e7fbe3cb8b154aa9d84b823870[m
+Author: Ubuntu <vagrant@Base-Box>
+Date:   Tue Oct 30 03:41:55 2018 +0000
+
+    Added character controller
+
+[33mcommit b71da4086130a74e52e424d6a9f945b25ab43bfe[m
+Author: Ubuntu <vagrant@Base-Box>
+Date:   Tue Oct 30 01:27:38 2018 +0000
+
+    New dogs controller added
+
+[33mcommit 73fab1be4c45f090681f7422276e20ba888469dd[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Mon Oct 29 14:33:13 2018 -0500
+
+    Added character and dog model and ran changes
+
+[33mcommit 61e23443fca720fb16d2d5ee743a7f6ba1ee5a28[m
+Author: Jonathan McIntosh <jontmcintosh@hotmail.com>
+Date:   Mon Oct 29 14:21:02 2018 -0500
+
+    Added the hero model and ran the migration
+
+[33mcommit 9b7d699c6a10793d63c6b6db5cad2eb871d60100[m
+Author: Ubuntu <vagrant@Base-Box>
+Date:   Mon Oct 29 18:06:25 2018 +0000
+
+    Initial commit of a new Rails project.

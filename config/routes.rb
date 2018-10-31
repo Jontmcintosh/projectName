@@ -16,6 +16,12 @@ get 'search/results', to: 'search#results'
   
   get 'characters/:id', to: 'characters#show', id: /\d+/
 
+
+  get 'about/index'
+  get 'about', to: 'about#index'
+  root to: 'about#index'
+
+
   
 
 
