@@ -11,7 +11,11 @@
 
   <body>
   <header>
-  <h1> Overwatch Heroes and their Pets</h1>
+  <h1> <%= link_to 'Overwatch Heroes and their Pets', root_path %></h1>
+  <p>
+ 
+    <%= link_to 'Search', search_index_path %>
+  </p>
     <%= yield %>
     <footer>
     <p>Copywrong 2018</p>
