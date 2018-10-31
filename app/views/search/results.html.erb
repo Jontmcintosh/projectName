@@ -1,0 +1,12 @@
+<h2> Hero/Hero's Found </h2>
+
+
+<% if @characters.empty? %>
+    <p>Sorry, no hero found with that name.</p>
+    <% else %>
+    <ul>
+    <% @characters.each do |character| %>
+            <li><%= link_to character.hero, character %></li>
+    <% end %>
+    </ul>
+<% end %>
