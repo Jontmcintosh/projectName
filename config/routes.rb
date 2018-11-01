@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 resources :characters, only: [:index, :show]
 
+resources :about
+
 resources :search, only: [:index] do
   collection do
   get 'results'
